@@ -1,0 +1,125 @@
+body {
+    font-family: "Open Sans", sans-serif;
+    background-color: #ffffff;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    height: 100vh;
+    align-items: flex-start; 
+    /* Add background image */
+    background-image: url('/Users/shubham/Documents/EccProjectApp/skypulse/src/images/v870-tang-36.jpg');
+    background-size: cover;
+    background-position: center;
+}
+
+.container {
+    max-width: 900px;
+    background-color: rgba(255, 255, 255, 0.9); /* Semi-transparent background */
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+/* .top-bar {
+    background-color: "transparent" ;
+    padding: 10px;
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.top-link {
+    margin-right: 20px;
+    text-decoration: none;
+    color: #333;
+    font-weight: bold;
+} */
+
+h1 {
+    color: #00bfa5;
+    font-size: 60px;
+    text-align: center; /* Align to the center for better visibility */
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    margin-top: 10px;
+    font-family: 'Quattrocento', cursive; /* Use a calligraphic font */
+    font-weight: normal; /* Adjust font weight if needed */
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2); /* Add a subtle text shadow */
+}
+
+h2 {
+    margin-top: 30px;
+}
+
+form {
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+label {
+    display: block;
+    margin-bottom: 8px;
+    font-weight: bold;
+}
+
+input[type="file"] {
+    width: 100%;
+    padding: 15px;
+    margin-bottom: 20px;
+    box-sizing: border-box;
+    border: 2px solid #00bfa5;
+    border-radius: 4px;
+    background-color: #00bfa5;
+    color: #fff;
+    font-size: 16px;
+    cursor: pointer;
+    outline: none;
+    transition: background-color 0.3s ease-in-out, color 0.3s ease-in-out, border-color 0.3s ease-in-out;
+}
+
+input[type="file"]:hover {
+    background-color: #009688;
+    border-color: #009688;
+}
+
+/* input[type="file"]::before {
+    content: "Choose File";
+    display: inline-block;
+    background-color: #00bfa5;
+    color: #fff;
+    padding: 10px 15px;
+    border-radius: 4px;
+    margin-right: 10px;
+} */
+
+input[type="file"]:hover::before {
+    background-color: #009688;
+}
+
+
+button {
+    background-color: #00bfa5;
+    color: #ffffff;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+button:hover {
+    background-color: #00a592;
+}
+
+img {
+    max-width: 30%;
+    margin-top: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
