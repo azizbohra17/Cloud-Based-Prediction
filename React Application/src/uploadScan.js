@@ -5,8 +5,8 @@ import './uploadScan.css'; // Import the CSS file
 
 // Configure AWS with your credentials and S3 bucket details
 AWS.config.update({
-  accessKeyId: 'AKIA3OCI4FW66NYQKLZD',
-  secretAccessKey: 'fXzADomfbee2sy+0s3dDEAvi+AYuYrTRCQqmVd9a',
+  accessKeyId: '##########',
+  secretAccessKey: '##########',
   region: 'us-east-1',
 });
 
