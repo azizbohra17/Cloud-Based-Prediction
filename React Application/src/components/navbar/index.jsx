@@ -42,9 +42,6 @@ const Seperator = styled.div`
 
 export function Navbar(props){
     const { useTransparent, hide, loggedIn } = props;
-
-    
-
     return <NavbarContainer useTransparent={useTransparent}>
         <BrandLogo/>
         <AccessibilityContainer>
