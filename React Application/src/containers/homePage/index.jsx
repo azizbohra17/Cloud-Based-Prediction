@@ -10,7 +10,6 @@ import { deviceSize } from "../../components/responsive";
 import { Services } from "./services";
 import { TopSection } from "./topSection";
 
-
 const ContentContainer = styled.div`
     width: 100%;
     max-width: ${deviceSize.laptop}px;
