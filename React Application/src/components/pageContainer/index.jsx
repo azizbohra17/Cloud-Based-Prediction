@@ -14,7 +14,6 @@ const PageWrapper = styled.div`
 export function PageContainer(props) {
   return <PageWrapper>{props.children}</PageWrapper>;
 }
-
 export const InnerPageContainer = styled.div`
   flex: 1;
   width: 100%;
